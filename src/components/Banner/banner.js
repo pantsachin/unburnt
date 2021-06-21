@@ -46,7 +46,7 @@ const Banner = () => {
             variants={variants}
             transition={{ ease: "easeOut", duration: 0.8, delay: 1 }}
           >
-            Time to make your business <span>stand out</span>
+            <span>Unburn</span> yourself
           </motion.h1>
           <motion.p
             initial="hidden"
@@ -54,8 +54,8 @@ const Banner = () => {
             variants={variants}
             transition={{ ease: "easeOut", duration: 0.8, delay: 1.5 }}
           >
-            Startup is here to help you achieve your business and personal
-            goals, all through a stylish theme
+            Learn essential tools cum life skills to help you destress from your
+            day to day stressers
           </motion.p>
           <Link to="about" smooth={true} duration={500}>
             <span className="sr-only">Jump to about</span>
