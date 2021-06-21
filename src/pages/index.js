@@ -32,7 +32,7 @@ const HomePage = () => {
       <TextBlockImg
         id="perks"
         title="We have the tools to help you suceed"
-        subtitle="Startup is perfect for helping to to start and grow your business. As
+        subtitle="Uburnt is perfect for helping to to start and grow your business. As
           you begin to gain new clients and expand you will see the benefits of
           a super-fast Gatsby website"
       >
