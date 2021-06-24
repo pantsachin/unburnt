@@ -22,8 +22,8 @@ const HomePage = () => {
       <Banner />
       <TextBlock
         id="about"
-        title="Developing a new business is never easy, but Startup is here to help"
-        paragraph="With a super-fast Gatsby powered website you have the perfect platform to get your idea off the ground. Its the perfect template to help turn your idea into a reality."
+        title="Don't know how to de-stress yourself after a long day of work? Don't worry, we are here to help!"
+        paragraph="With different scientifically backed techniques we aim to bring a revolution in the world of unwinding after a hard day's work. Choose what you want to do according to your mood."
       >
         <Link to="perks" smooth={true} duration={500}>
           <Button label="Tell Me More" cta="Tell Me More!" />
@@ -31,7 +31,7 @@ const HomePage = () => {
       </TextBlock>
       <TextBlockImg
         id="perks"
-        title="We have the tools to help you suceed"
+        title="We provide you the tools and skills to help you live your best life!"
         subtitle="Uburnt is perfect for helping to to start and grow your business. As
           you begin to gain new clients and expand you will see the benefits of
           a super-fast Gatsby website"

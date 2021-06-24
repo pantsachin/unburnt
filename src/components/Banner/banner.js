@@ -54,7 +54,7 @@ const Banner = () => {
             variants={variants}
             transition={{ ease: "easeOut", duration: 0.8, delay: 1.5 }}
           >
-            Learn essential tools cum life skills to help you destress from your
+            Learn essential tools to help yourself destress from your
             day to day stressers
           </motion.p>
           <Link to="about" smooth={true} duration={500}>
