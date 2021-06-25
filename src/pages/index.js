@@ -66,18 +66,19 @@ const HomePage = () => {
             style: { verticalAlign: "middle", marginRight: "5px" },
           }}
         >
-          <Package title="Standard">
+          <Package title="Excursion">
             <ul>
               <li>
-                <MdDone />1 User
+                <MdDone />
+                Weekly excursion tours
               </li>
               <li>
                 <MdDone />
-                1GB Storage
+                Register and hop in
               </li>
-              <li className="linethrough">
-                <MdClear color="red" />
-                Dedicated Advisor
+              <li>
+                <MdDone />
+                Community experience
               </li>
               <li className="linethrough">
                 <MdClear color="red" />
@@ -88,47 +89,47 @@ const HomePage = () => {
               <Button label="I want this" cta="I want this!" />
             </Link>
           </Package>
-          <Package title="Hyper" active={true}>
+          <Package title="Curated Workshops" active={true}>
             <ul>
               <li>
                 <MdDone />
-                24/7 Support
+                experiential learning of life skills
               </li>
               <li>
                 <MdDone />
-                Dedicated Advisor
+                facilitation through art mediums
               </li>
               <li>
                 <MdDone />
-                Unlimited Storage
+                explorative and innovative
               </li>
               <li>
                 <MdDone />
-                Unlimited Users
+                initiaing reflective process
               </li>
             </ul>
             <Link to="contact" smooth={true} duration={500}>
               <Button label="I want this" cta="I want this!" />
             </Link>
           </Package>
-          <Package title="Super">
+          <Package title="Vent-O-Friend">
             <ul>
               <li>
                 <MdDone />
-                10 Users
+                15 mins call session
               </li>
               <li>
                 <MdDone />
-                500GB Storage
+                schedule on a day's notice
               </li>
               <li>
                 <MdDone />
-                Advice Support
+                anonynous and confidential
               </li>
-              <li className="linethrough">
+              {/* <li className="linethrough">
                 <MdClear color="red" />
                 Dedicated Advisor
-              </li>
+              </li> */}
             </ul>
             <Link to="contact" smooth={true} duration={500}>
               <Button label="I want this" cta="I want this!" />
