@@ -4,7 +4,7 @@ import TextBlock from "../components/TextBlock/textBlock"
 import TextBlockImg from "../components/TextBlockImg/textBlockImg"
 import Perk from "../components/Perk/perk"
 import Button from "../components/Button/button"
-import Packages from "../components/Packages/packages"
+import Services from "../components/Services/services"
 import Package from "../components/Package/package"
 import Contact from "../components/Contact/contact"
 import { Link } from "react-scroll"
@@ -37,27 +37,27 @@ const HomePage = () => {
         <div className="flex-container trio-block">
           <Perk
             img={perk1Img}
-            alt="Super fast speed increases"
-            title="Speedy"
-            content="Super-fast response times ensure your business is not affected"
+            alt="convinient (time)"
+            title="Convenient"
+            content="Book a slot according to your convenience"
           />
           <Perk
             img={perk2Img}
-            alt="Great savings to be made"
-            title="Affordable"
-            content="A choice of packages to suit every business type and size"
+            alt="confidential"
+            title="Confidential"
+            content="Let your heart out without any fear of rejection or judgement with our trained listeners"
           />
           <Perk
             img={perk3Img}
-            alt="Super fast speed increases"
+            alt="friendly"
             title="Friendly"
-            content="Advisors who are available 24/7, all with exprt knowledge"
+            content="It is a need for social animals to connect, share and make friendly relations"
           />
         </div>
       </TextBlockImg>
-      <Packages
-        title="Our Packages"
-        para="Choose the perfect solution for you. With benefits to suit all budgets Startup can offer amazing value and expert advice"
+      <Services
+        title="Services"
+        para="Choose the solution that works for you. Currently we are offering these services"
       >
         <IconContext.Provider
           value={{
@@ -135,7 +135,7 @@ const HomePage = () => {
             </Link>
           </Package>
         </IconContext.Provider>
-      </Packages>
+      </Services>
       <Contact
         id="contact"
         title="Contact Startup today and see how we can help your business grow"
