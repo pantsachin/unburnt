@@ -31,10 +31,8 @@ const HomePage = () => {
       </TextBlock>
       <TextBlockImg
         id="perks"
-        title="We provide you the tools and skills to help you live your best life!"
-        subtitle="Uburnt is perfect for helping to to start and grow your business. As
-          you begin to gain new clients and expand you will see the benefits of
-          a super-fast Gatsby website"
+        title="We provide you the tools to help you create the best version of your life!"
+        subtitle="Imagine your life is a cup - it's your cup of life! All your life experiences is like the drink that you fill in this cup. Now imagine if the cup is filled with dirty water then no matter however healthy addition you make to your cup it will still get dirty. That's what happens to life too, you need to empty your cup from time to time, in order to fill it up with good things. "
       >
         <div className="flex-container trio-block">
           <Perk
