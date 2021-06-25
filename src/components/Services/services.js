@@ -1,9 +1,9 @@
 import React from "react"
 import styled from "styled-components"
 
-const Packages = ({ title, para, children }) => {
+const Services = ({ title, para, children }) => {
   return (
-    <PackagesWrapper id="packages">
+    <PackagesWrapper id="services">
       <div className="text-area">
         <h2>{title}</h2>
         <p>{para}</p>
@@ -44,4 +44,4 @@ const PackagesWrapper = styled.section`
   }
 `
 
-export default Packages
+export default Services
