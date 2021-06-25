@@ -80,10 +80,10 @@ const HomePage = () => {
                 <MdDone />
                 Community experience
               </li>
-              <li className="linethrough">
+              {/* <li className="linethrough">
                 <MdClear color="red" />
                 24/7 Support
-              </li>
+              </li> */}
             </ul>
             <Link to="contact" smooth={true} duration={500}>
               <Button label="I want this" cta="I want this!" />

@@ -46,7 +46,7 @@ const Banner = () => {
             variants={variants}
             transition={{ ease: "easeOut", duration: 0.8, delay: 1 }}
           >
-            <span>Unburn</span> yourself
+            <span>Unburn</span> 
           </motion.h1>
           <motion.p
             initial="hidden"
