@@ -12,8 +12,8 @@ export const mainMenuItems = [
     title: "about",
   },
   {
-    path: "/packages",
-    title: "packages",
+    path: "/services",
+    title: "Services",
   },
   {
     path: "/contact",
@@ -34,7 +34,7 @@ export const socialMenuItems = [
   },
   {
     icon: <DiGithubBadge />,
-    url: "https://github.com/bagseye",
+    url: "https://github.com",
     name: "GitHub",
   },
 ]
