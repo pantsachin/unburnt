@@ -139,8 +139,8 @@ const HomePage = () => {
       </Services>
       <Contact
         id="contact"
-        title="Contact Startup today and see how we can help your business grow"
-        subtitle="Every second counts when you're looking to get your new business started. Drop Startup a message and one of our representatives will be in contact"
+        title="Fill the relevant form below"
+        subtitle="Learn the essential tools to navigate in today's hustling world. Fill the form and we will connect with you within a day."
       />
     </>
   )
