@@ -33,7 +33,7 @@ const Footer = ({ Logo }) => {
             {/* If there is a logo, render this */}
             {Logo && (
               <Link to="/">
-                <img src={Logo} alt={`${footerData.title} logo`} />
+                {/* <img src={Logo} alt={`${footerData.title} logo`} /> footer logo removed */}
               </Link>
             )}
             {/* <address>

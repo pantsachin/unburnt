@@ -11,7 +11,7 @@ const Navbar = ({ Logo }) => {
   return (
     <NavStyles>
       <div className="masthead flex-container">
-        <img src={Logo} alt="Startup Logo" />
+        {/* <img src={Logo} alt="Startup Logo" /> */}
         <button
           className={isOpen ? "toggle-btn toggle-btn-active" : "toggle-btn"}
           type="button"
