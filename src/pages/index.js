@@ -106,7 +106,7 @@ const HomePage = () => {
               </li>
               <li>
                 <MdDone />
-                initiaing reflective process
+                initiating reflective process
               </li>
             </ul>
             <Link to="contact" smooth={true} duration={500}>

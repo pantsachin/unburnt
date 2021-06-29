@@ -13,18 +13,13 @@ const Contact = ({ title, subtitle, id }) => {
           <div className="input-area">
             {" "}
             <div className="input-area button-area">
-              {/* <a
+              <a
                 style={{ textDecoration: "none", color: "inherit" }}
                 href="https://docs.google.com/forms/d/e/1FAIpQLSd8t9R4-vFtDhxDFrM0y14wmANYwfZuxhmyAduZgf6fMNQkDw/viewform"
-              > */}
+              >
                 {" "}
-                <Button
-                  label="Send Contact Form"
-                  cta="Volunteer"
-                  type="submit"
-  
-                />{" "}
-              {/* </a> */}
+                <Button label="Volunteer Form" cta="Volunteer" />{" "}
+              </a>
             </div>{" "}
             {/* <input
               type="text"
@@ -42,11 +37,7 @@ const Contact = ({ title, subtitle, id }) => {
             <div className="input-area button-area">
               <a href="https://docs.google.com/forms/d/1d6uvzW2ovKFRpsXRvRtgSi1GJduBqO5y0UrLSHHBsRg/edit">
                 {" "}
-                <Button
-                  label="Send Contact Form"
-                  cta="Seek Service"
-                  type="submit"
-                />{" "}
+                <Button label="Seek Service Form" cta="Seek Service" />{" "}
               </a>
             </div>
             {/* <input
@@ -65,11 +56,7 @@ const Contact = ({ title, subtitle, id }) => {
             <div className="input-area button-area">
               <a href="https://docs.google.com/forms/d/1TM76re1LEfl_3ns5E-VqCTULfP7LHF8ArpoxFHZYuEk/edit">
                 {" "}
-                <Button
-                  label="Send Contact Form"
-                  cta="Feedback Form"
-                  type="submit"
-                />{" "}
+                <Button label="Feedback Form" cta="Feedback Form" />{" "}
               </a>
             </div>
             {/* <textarea
