@@ -13,10 +13,10 @@ const Contact = ({ title, subtitle, id }) => {
           <div className="input-area">
             {" "}
             <div className="input-area button-area">
-              <a
+              {/* <a
                 style={{ textDecoration: "none", color: "inherit" }}
                 href="https://docs.google.com/forms/d/e/1FAIpQLSd8t9R4-vFtDhxDFrM0y14wmANYwfZuxhmyAduZgf6fMNQkDw/viewform"
-              >
+              > */}
                 {" "}
                 <Button
                   label="Send Contact Form"
@@ -24,7 +24,7 @@ const Contact = ({ title, subtitle, id }) => {
                   type="submit"
                   href="https://forms.gle/eibY9LWZSx1tfW6RA"
                 />{" "}
-              </a>
+              {/* </a> */}
             </div>{" "}
             {/* <input
               type="text"
