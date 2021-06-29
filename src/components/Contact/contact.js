@@ -22,7 +22,7 @@ const Contact = ({ title, subtitle, id }) => {
                   label="Send Contact Form"
                   cta="Volunteer"
                   type="submit"
-                  href="https://forms.gle/eibY9LWZSx1tfW6RA"
+  
                 />{" "}
               {/* </a> */}
             </div>{" "}
