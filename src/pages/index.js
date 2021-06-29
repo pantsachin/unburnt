@@ -138,6 +138,7 @@ const HomePage = () => {
           </Package>
         </IconContext.Provider>
       </Services>
+
       <Contact
         id="contact"
         title="Fill the relevant form below"

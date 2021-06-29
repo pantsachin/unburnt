@@ -14,7 +14,7 @@ const Button = props => {
           {props.cta}
         </ButtonWrapper>
       ) : (
-        <ButtonWrapper aria-label={props.label} type={props.type}>
+        <ButtonWrapper href={props.href} as="a" aria-label={props.label} type={props.type}>
           {props.cta}
         </ButtonWrapper>
       )}

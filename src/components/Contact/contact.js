@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import Button from "../Button/button"
+import { Link, NavLink } from "gatsby"
 
 const Contact = ({ title, subtitle, id }) => {
   return (
@@ -10,8 +11,18 @@ const Contact = ({ title, subtitle, id }) => {
         <p>{subtitle}</p>
         <form name="contact" netlify>
           <div className="input-area">
-
-            
+            {" "}
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd8t9R4-vFtDhxDFrM0y14wmANYwfZuxhmyAduZgf6fMNQkDw/viewform">
+              {" "}
+              <div className="input-area button-area">
+                <Button
+                  label="Send Contact Form"
+                  cta="Volunteer (certified therapists only)"
+                  type="submit"
+                  href="https://forms.gle/eibY9LWZSx1tfW6RA"
+                />
+              </div>{" "}
+            </a>
             {/* <input
               type="text"
               name="name"
@@ -25,6 +36,16 @@ const Contact = ({ title, subtitle, id }) => {
           </div>
 
           <div className="input-area">
+            <div className="input-area button-area">
+              <a href="https://docs.google.com/forms/d/1d6uvzW2ovKFRpsXRvRtgSi1GJduBqO5y0UrLSHHBsRg/edit">
+                {" "}
+                <Button
+                  label="Send Contact Form"
+                  cta="Seek Service"
+                  type="submit"
+                />{" "}
+              </a>
+            </div>
             {/* <input
               type="email"
               name="email"
@@ -32,12 +53,22 @@ const Contact = ({ title, subtitle, id }) => {
               required
               autoComplete="off"
             /> */}
-            <label className="label-name" for="email">
+            {/* <label className="label-name" for="email">
               <span className="content-name">Email</span>
-            </label>
+            </label> */}
           </div>
 
           <div className="input-area">
+            <div className="input-area button-area">
+              <a href="https://docs.google.com/forms/d/1TM76re1LEfl_3ns5E-VqCTULfP7LHF8ArpoxFHZYuEk/edit">
+                {" "}
+                <Button
+                  label="Send Contact Form"
+                  cta="Feedback Form"
+                  type="submit"
+                />{" "}
+              </a>
+            </div>
             {/* <textarea
               type="text"
               name="message"
@@ -46,9 +77,9 @@ const Contact = ({ title, subtitle, id }) => {
               autoComplete="off"
               aria-label="Message"
             /> */}
-            <label className="label-name" for="message">
+            {/* <label className="label-name" for="message">
               <span className="content-name">Message</span>
-            </label>
+            </label> */}
           </div>
 
           {/* <div className="input-area button-area">
