@@ -12,17 +12,17 @@ const Contact = ({ title, subtitle, id }) => {
         <form name="contact" netlify>
           <div className="input-area">
             {" "}
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd8t9R4-vFtDhxDFrM0y14wmANYwfZuxhmyAduZgf6fMNQkDw/viewform">
-              {" "}
-              <div className="input-area button-area">
+            <div className="input-area button-area">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSd8t9R4-vFtDhxDFrM0y14wmANYwfZuxhmyAduZgf6fMNQkDw/viewform">
+                {" "}
                 <Button
                   label="Send Contact Form"
-                  cta="Volunteer (certified therapists only)"
+                  cta="Volunteer"
                   type="submit"
                   href="https://forms.gle/eibY9LWZSx1tfW6RA"
-                />
-              </div>{" "}
-            </a>
+                />{" "}
+              </a>
+            </div>{" "}
             {/* <input
               type="text"
               name="name"
