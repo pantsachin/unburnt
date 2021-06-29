@@ -13,7 +13,10 @@ const Contact = ({ title, subtitle, id }) => {
           <div className="input-area">
             {" "}
             <div className="input-area button-area">
-              <a style={{textDecoration: "none"}} href="https://docs.google.com/forms/d/e/1FAIpQLSd8t9R4-vFtDhxDFrM0y14wmANYwfZuxhmyAduZgf6fMNQkDw/viewform">
+              <a
+                style={{ textDecoration: "none", color: "inherit" }}
+                href="https://docs.google.com/forms/d/e/1FAIpQLSd8t9R4-vFtDhxDFrM0y14wmANYwfZuxhmyAduZgf6fMNQkDw/viewform"
+              >
                 {" "}
                 <Button
                   label="Send Contact Form"
