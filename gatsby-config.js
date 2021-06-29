@@ -12,7 +12,7 @@ module.exports = {
     titleTemplate: "%s | Helping startups get started",
     description: "A simple one-page site for new businesses that uses GatsbyJS",
     siteUrl: "https://unburnt.netlify.app/",
-    author: "Unburn",
+    author: "Unburnt",
     authorSite: "https://www.morganbaker.dev",
     image: "/yellow-metal-design-decoration.jpg",
     twitterUsername: "@twitter",
