@@ -10,48 +10,50 @@ const Contact = ({ title, subtitle, id }) => {
         <p>{subtitle}</p>
         <form name="contact" netlify>
           <div className="input-area">
-            <input
+
+            
+            {/* <input
               type="text"
               name="name"
               aria-label="Name"
               required
               autoComplete="off"
-            />
-            <label className="label-name" for="name">
+            /> */}
+            {/* <label className="label-name" for="name">
               <span className="content-name">Name</span>
-            </label>
+            </label> */}
           </div>
 
           <div className="input-area">
-            <input
+            {/* <input
               type="email"
               name="email"
               aria-label="Email"
               required
               autoComplete="off"
-            />
+            /> */}
             <label className="label-name" for="email">
               <span className="content-name">Email</span>
             </label>
           </div>
 
           <div className="input-area">
-            <textarea
+            {/* <textarea
               type="text"
               name="message"
               rows="5"
               required
               autoComplete="off"
               aria-label="Message"
-            />
+            /> */}
             <label className="label-name" for="message">
               <span className="content-name">Message</span>
             </label>
           </div>
 
-          <div className="input-area button-area">
+          {/* <div className="input-area button-area">
             <Button label="Send Contact Form" cta="Send" type="submit" />
-          </div>
+          </div> */}
         </form>
       </div>
     </ContactWrapper>

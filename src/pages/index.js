@@ -22,8 +22,8 @@ const HomePage = () => {
       <Banner />
       <TextBlock
         id="about"
-        title="Don't know how to de-stress yourself after a long day of work? Don't worry, we are here to help!"
-        paragraph="With different scientifically backed techniques we aim to bring a revolution in the world of unwinding after a hard day's work. Choose what you want to do according to your mood."
+        title="50% of the people suffer from some kind of workplace related stress symptoms."
+        paragraph="With different scientifically backed techniques we aim to bring a revolution in the world of unwinding after a hard day's work. Choose what you want to do according to your preference."
       >
         <Link to="perks" smooth={true} duration={500}>
           <Button label="Tell Me More" cta="Tell Me More!" />
@@ -39,25 +39,25 @@ const HomePage = () => {
             img={perk1Img}
             alt="convinient (time)"
             title="Convenient"
-            content="Book a slot according to your convenience"
+            content="Book a slot at any time of the day."
           />
           <Perk
             img={perk2Img}
             alt="confidential"
             title="Confidential"
-            content="Let your heart out without any fear of rejection or judgement with our trained listeners"
+            content="Let your heart out without any fear of rejection or judgement with our trained listeners. "
           />
           <Perk
             img={perk3Img}
             alt="friendly"
             title="Friendly"
-            content="It is a need for social animals to connect, share and make friendly relations"
+            content="Find your tribe - make friends and connect with like minded people."
           />
         </div>
       </TextBlockImg>
       <Services
         title="Services"
-        para="Choose the solution that works for you. Currently we are offering these services"
+        para="Choose the solution that works for you. Currently we are offering these services ( first session is FREE! )"
       >
         <IconContext.Provider
           value={{
@@ -67,6 +67,7 @@ const HomePage = () => {
           }}
         >
           <Package title="Excursion">
+           
             <ul>
               <li>
                 <MdDone />
